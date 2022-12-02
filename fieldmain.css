@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #1f1f22;
+    font-family: montserrat, sans-serif;
+    font-size: 15.5px;
+    font-style: normal;
+    font-weight: 300;
+    color: #b8c1d2;
+    line-height: 1.6
+}
+.title{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/landscape.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.logo{
+    margin-left: -40px;
+    margin-bottom: 6px;
+}
+nav {
+    font-family: montserrat, sans-serif; 
+    text-align: center;
+    overflow: hidden;
+    margin: 20px;
+}
+nav a {
+    float: center;
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:focus, a:hover, a:active{ 
+    color: #8fd4d7;
+}
+h1{
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+    font-size: 150px;
+}
+h2{
+    color: #8fd4d7;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+}
+.terraintitle h3{
+    color: #8fd4d7;
+    font-family: montserrat, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    border-bottom: dotted 1px #8fd4d7;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+footer {
+   border-top: dotted 1px #8fd4d7;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    line-height: 1.8
+}
+.Socials{
+    text-align: right;
+    margin-top: -35px;
+}
+.Socials a{
+    color: white;
+}
+.Socials a:focus, a:hover, a:active{
+    color: #8fd4d7;
+    transition: .2s;
+}
+ion-icon{
+    margin-right: 8px;
+    font-size: 30px;
+}
+
+/*index styles*/
+.terrain{
+    display: flex;
+}
+.ice{
+    flex: 50%;
+    margin: 120px;
+}
+.ice h2{
+    padding-bottom: 20px;
+}
+.range{
+    margin-top: -30px
+}
+
+/*penguins styles*/
+.title4{
+height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/pens.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.flexcontainer{
+    display: flex;
+    background-image: url(images/penillust.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top; 
+}
+.flexItem{
+    flex: 50%;
+    margin:120px;
+}
+.flexItem h2{
+    padding-bottom: 20px;
+}
+.pen1{
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+.pen2{
+    margin-top: 300px;
+    margin-bottom: 200px
+}
+.pen3{
+    margin-top: 225px;
+    margin-left:200px;
+}
+.text2{
+    padding: 25px;
+    border-style: dotted;
+    border-color: #8fd4d7;
+    border-radius: 40px;
+}
+.text1{
+    padding: 25px;
+    border-style: dotted;
+    border-color: #8fd4d7;
+    border-radius: 40px;
+}
+.text3{
+   padding: 25px;
+    border-style: dotted;
+    border-color: #8fd4d7;
+    border-radius: 40px;
+}
+.sub h3{
+    font-weight: 300;
+    color: #8fd4d7;
+}
+.sub{
+    padding-bottom: 30px;
+}
+
+/*seals styles*/
+.title5{
+height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/seals.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.flexcontainer2{
+    display: flex;
+    background-image: url(images/sealillust.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+.flexItem2{
+    flex: 50%;
+    margin:120px;
+}
+.flexItem2 h2{
+    padding-bottom: 20px;
+}
+
+.seal1{
+    margin-bottom:170px;
+}
+.seal2{
+    margin-top:170px;
+    margin-bottom: 170px;
+}
+.seal3{
+    margin-top: 170px;
+}
+
+/*whales styles*/
+.title6{
+height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/whales.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.whales{
+    background-image: url(images/whaleillust.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+}
+.flexItem3{
+    flex: 50%;
+    margin:120px;
+}
+.flexItem3 h2{
+    padding-bottom: 20px;
+}
+.whale1{
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-left: 140px;
+}
+.whale2{
+    margin-bottom: 100px;
+}
+.whale3{
+    margin-bottom: 100px;
+}
+
+/*melting ice*/
+.title7{
+height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/melt.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.callout{
+    background-image: url(images/melt.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.callout1{
+    margin-top: 200px;
+}
+.callout1 h2{
+    margin-top: 200px;
+    margin-left: 100px
+}
+.callout1 p{
+    margin-left: 300px;
+    margin-right: 600px;
+}
+.callout2{
+    margin-top: 200px;
+    margin-left: 400px;
+}
+.callout2 h2{
+    margin-left: 300px;
+}
+.callout2 p{
+    margin-right: 500px;
+}
+.callout3 h2{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.callout3 p{
+    margin-left:500px;
+   margin-bottom: 200px;
+    margin-right: 600px;
+}
+
+/*rising sea*/
+.title8{
+height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/rise.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.rise{
+    background-image: url(images/rise.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.rise1{
+    margin-top: 200px;
+}
+.rise1 h2{
+    margin-left: 100px;
+}
+.rise1 p{
+    margin-left: 300px;
+    margin-right: 500px;
+}
+.rise2 h2{
+    margin-top: 200px;
+    margin-left: 500px
+}
+.rise2 p{
+    margin-left: 500px;
+    margin-right: 300px;
+}
+.rise3{
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+.rise3 p{
+    margin-left: 200px;
+    margin-right:500px;
+}
